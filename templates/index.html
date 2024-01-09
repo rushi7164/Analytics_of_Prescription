@@ -1,0 +1,129 @@
+{% extends 'commonheader.html'%}
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <!-- Start Home Page Slider -->
+    <section id="page-top">
+        <!-- Carousel -->
+        <div id="main-slide" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slide" data-slide-to="1"></li>
+                <li data-target="#main-slide" data-slide-to="2"></li>
+            </ol>
+            <!--/ Indicators end-->
+
+            <!-- Carousel inner -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="img-responsive" src="/static/images/header-bg-1.jpg" alt="slider">
+                    <div class="slider-content">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated3">
+                                <span><strong>Analytics</strong> of Scanned Prescription</span>
+                            </h1>
+                            <p class="animated2">Scanned prescription document with a note that the clinic staff has validated the prescriptionwhole numbers and assign in descending order for the months of issuance.</p>
+                            <!--<a href="#feature" class="page-scroll btn btn-primary animated1">Read More</a>-->
+                        </div>
+                    </div>
+                </div>
+                <!--/ Carousel item end -->
+
+                <div class="item">
+                    <img class="img-responsive" src="/static/images/header-back.png" alt="slider">
+
+                    <div class="slider-content">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated1">
+                    		  <span><strong>Analytics</strong> of Scanned Prescription</span>
+                    	    </h1>
+                            <p class="animated2">Scanned prescription shall be displayable on the computer terminal at both the telepharmacy and parent pharmacy.</p>
+                            <!--<a href="#feature" class="page-scroll btn btn-primary animated3">Read More</a>-->
+                        </div>
+                    </div>
+                </div>
+                <!--/ Carousel item end -->
+
+                <div class="item">
+                    <img class="img-responsive" src="/static/images//galaxy.jpg" alt="slider">
+                    <div class="slider-content">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated2">
+                                <span><strong>Analytics</strong> of Scanned Prescription</span>
+                            </h1>
+                            <p class="animated1">Electronic prescription (e-prescribing or e-Rx) is the computer-based electronic generation, transmission, and filling of a medical prescription, taking the place of paper and faxed prescriptions. </p>
+                            <!--<a class="animated3 slider btn btn-primary btn-min-block" href="#">Get Now</a><a class="animated3 slider btn btn-default btn-min-block" href="#">Live Demo</a>-->
+                        </div>
+                    </div>
+                </div>
+                <!--/ Carousel item end -->
+            </div>
+            <!-- Carousel inner end-->
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#main-slide" data-slide="prev">
+                <span><i class="fa fa-angle-left"></i></span>
+            </a>
+            <a class="right carousel-control" href="#main-slide" data-slide="next">
+                <span><i class="fa fa-angle-right"></i></span>
+            </a>
+        </div>
+        <!-- /carousel -->
+    </section>
+    <!-- End Home Page Slider -->
+
+
+<!-- Start Feature Section -->
+        <section id="feature" class="feature-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="feature">
+                            <i class="fa fa-magic"></i>
+                            <div class="feature-content">
+                                <h4>Prescriber</h4>
+                                <p>The prescriber, generally a clinician or healthcare staff, is defined as the electronic prescribing system user and sign into the system through a verification process to authenticate their identity</p>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-3 -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="feature">
+                            <i class="fa fa-gift"></i>
+                            <div class="feature-content">
+                                <h4>Transaction hub</h4>
+                                <p>The transaction hub provides the common link between all actors (prescriber, pharmacy benefit manager, and pharmacy). It stores and maintains a master patient index for quick access to their medical information as well as a list of pharmacies</p>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-3 -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="feature">
+                            <i class="fa fa-wordpress"></i>
+                            <div class="feature-content">
+                                <h4>Pharmacy</h4>
+                                <p>When a pharmacy receives the prescription information from the transaction hub, it will send a confirmation message. The pharmacy also has the ability to communicate to the prescriber that the prescription order has been filled through the system.</p>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-3 -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="feature">
+                            <i class="fa fa-plug"></i>
+                            <div class="feature-content">
+                                <h4>Imaging</h4>
+                                <p>When an imaging center receives the prescription, the imaging center will then contact the patient and schedule the patient for his/her scan. The advantage of ePrescribing radiology is that often when a patient is handed a paper script, the patient will lose the prescription or wait to call and schedule.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.row -->
+
+            </div><!-- /.container -->
+        </section>
+        <!-- End Feature Section -->
+</body>
+</html>
+{% endblock %}
